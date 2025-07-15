@@ -1,0 +1,113 @@
+GitHub commands
+
+
+
+
+1) To insert a new text file in the repository through local
+
+
+insert -> add -> commit -> push 
+
+git add filename.txt
+
+git commit -m "filename.txt added"
+
+git push origin main
+
+
+
+
+
+2) To modify the file follow the same process
+
+
+modify -> add -> commit -> push 
+
+
+
+
+
+3) To delete the file follow the same process
+
+
+delete -> add -> commit -> push 
+
+
+
+4) GitHub new file to local   and GitHub file update to local
+
+command =>  git pull
+
+
+
+5) After creating the new folder in local 
+
+put this command => " git init " to start git repository in the local
+
+
+
+6) To add new file in the new folder 
+
+ git remote add origin https://github.com/Jayaprakash0777/githubemc2.git
+
+ git branch
+
+ git status
+
+ git push origin master
+
+
+
+7) Then  add changes to give this command 
+
+ git add index.html
+
+ git commit -m " creasdkgl"
+
+ git push origin master
+
+
+8) To change the name of the branch
+
+ git branch -M main 
+
+ git branch 
+
+ git push origin main
+
+
+
+9) To check which branch in out repository
+
+git branch -a
+
+
+
+10) To check the new branch in the local
+
+git pull 
+
+git branch -a 
+
+git checkout "branch name"
+
+git branch -a
+
+
+11) To change varied branches use these following commands
+
+ii) git checkout main
+
+i) git checkout gitbranch1
+  
+
+12) To check the differences between the two branches do 
+
+git diff gitbranch1
+
+
+13)To merge two branches do 
+
+git merge gitbranch1
+
+git push origin main
